@@ -6,7 +6,7 @@ const typeColors = {
     ghost: '#7b62a3',
     ground: '#f7de3f',
     normal: '#a4acaf',
-    pyschic: '#f366b9',
+    psychic: '#f366b9',
     steel: '#9eb7b',
     dark: '#707070',
     electric: '#eed535',
@@ -16,7 +16,8 @@ const typeColors = {
     ice: '#51c4e7',
     poison: '#b97fc9',
     rock: '#a38c21',
-    water: '#4592c4'
+    water: '#4592c4',
+    steel: '#807251'
 }
 
 export default typeColors;

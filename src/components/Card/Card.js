@@ -30,7 +30,7 @@ function Card({ pokemon }) {
                     <p>{pokemon.height}</p>
                 </div>
                 <div className="Card_data Card_data--abilities">
-                    <p className="title">abilities</p>
+                    <p className="title">Abilities</p>
                     <p>{pokemon.abilities.map(item => {
                         return (
                             <div className="Card_ability">

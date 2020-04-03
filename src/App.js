@@ -56,13 +56,13 @@ function App() {
 
   return (
     <div>
-      { loading ? (
+      { loading ? 
         <div>
           <Navbar/>
           <h1>Loading...</h1>
         </div>     
         
-      ) : (
+       : (
         <>
           <Navbar/>
           <div className="btn">

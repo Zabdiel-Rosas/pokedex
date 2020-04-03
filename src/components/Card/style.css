@@ -1,13 +1,6 @@
-.grid-container{
-    display:flex;
-    flex-direction: column;    
-    align-items: center;    
-
-}
-
 .Card{
     background-color: white;
-    width: 38%;
+    width: 29%;
     height: fit-content;
     margin: 1%;
     border-radius: 1em;
@@ -15,6 +8,7 @@
 
 .Card_img, .Card_Name{
     text-align: center;
+    text-transform: capitalize;
 }
 
 .Card_Types{
