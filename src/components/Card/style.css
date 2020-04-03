@@ -1,0 +1,42 @@
+.grid-container{
+    display:flex;
+    flex-direction: column;    
+    align-items: center;    
+
+}
+
+.Card{
+    background-color: white;
+    width: 38%;
+    height: fit-content;
+    margin: 1%;
+    border-radius: 1em;
+}
+
+.Card_img, .Card_Name{
+    text-align: center;
+}
+
+.Card_Types{
+    display:flex;
+    justify-content: center;
+}
+
+.Card_type{
+    padding: 5px 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    background: cyan;
+    color: white;
+    
+}
+
+.Card_Name, .title{
+    font-weight: 700;
+}
+
+.Card_info{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
